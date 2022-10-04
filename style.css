@@ -95,10 +95,10 @@ h3 {
 }
 
 .nav-container > .logo-container > .logo {
-  background-color: #22223b;
-  border-radius: 50%;
-  height: 30px;
-  width: 30px;
+  border: none;
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
   margin-right: 7px;
 }
 
@@ -183,7 +183,7 @@ h3 {
 .hero {
   min-height: 100vh;
   min-width: 100vw;
-  background-image: url("./src/img/hero.jpg");
+  background-image: url("/src/img/hero.jpg");
   background-size: cover;
   margin-top: 50px;
   position: relative;
@@ -536,7 +536,6 @@ h3 {
 /* FOOTER */
 footer {
   background-color: var(--primary);
-  /* height: 60px; */
   display: grid;
   place-items: center;
   padding: 15px;
@@ -556,4 +555,17 @@ footer > ul > li > a {
 footer > p {
   color: #fff;
   font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  footer > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer > ul > li {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+  }
 }
