@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AM Servicios</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <section class="navbar flex">
+        <div class="nav-container">
+          <div class="logo-container flex">
+            <div class="logo"></div>
+            <h2>AM Servicios</h2>
+          </div>
+          <button class="hamburger-button">☰</button>
+          <nav>
+            <button class="close-button">&times;</button>
+            <ul>
+              <li><a class="link" href="#inicio">Inicio</a></li>
+              <li><a class="link" href="#quienes-somos">Quienes somos</a></li>
+              <li><a class="link" href="#trabajos">Nuestros trabajos</a></li>
+              <li>
+                <a class="link" href="#contacto"
+                  >¿Querés trabajar con nosotros?</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+
+      <!-- HERO SECTION -->
+      <section class="hero" id="inicio">
+        <div class="hero-overlay"></div>
+        <div class="hero-container">
+          <h1>am servicios</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </section>
+      <!-- ABOUT SECTION -->
+      <section class="about">
+        <h3 id="quienes-somos">¿Quiénes somos?</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ea ad
+          obcaecati sint, impedit quam illum fuga modi rerum esse expedita autem
+          consequuntur accusamus sequi qui minus consequatur totam natus!
+          <br />
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi eum
+          esse omnis, iure consequatur maxime exercitationem aliquam tempora
+          asperiores itaque aspernatur minima officia dolor sit aut, molestias
+          delectus voluptatibus nobis?
+        </p>
+        <div class="cards-container">
+          <div class="value-card">
+            <img src="./src/img/check.svg" alt="eficiencia" />
+            <h5>Eficiencia</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+              debitis expedita eum eligendi quia suscipit dicta, eaque nemo
+              neque esse dolor
+            </p>
+          </div>
+          <div class="value-card">
+            <img src="./src/img/bolt.svg" alt="eficacia" />
+            <h5>Eficacia</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+              debitis expedita eum eligendi quia suscipit dicta, eaque nemo
+              neque esse dolor
+            </p>
+          </div>
+          <div class="value-card">
+            <img src="./src/img/think.svg" alt="eficiencia" />
+            <h5>Logistica</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+              debitis expedita eum eligendi quia suscipit dicta, eaque nemo
+              neque esse dolor
+            </p>
+          </div>
+          <div class="value-card">
+            <img src="./src/img/time.svg" alt="a tiempo" />
+            <h5>A tiempo</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+              debitis expedita eum eligendi quia suscipit dicta, eaque nemo
+              neque esse dolor
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- TRABAJOS -->
+      <section class="jobs" id="trabajos">
+        <h3>Nuestros trabajos</h3>
+        <div class="jobs-content">
+          <div class="slider-container flex">
+            <div class="slider">
+              <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1" />
+                <input type="radio" name="radio-btn" id="radio2" />
+                <div class="slide first">
+                  <img src="./src/img/img-1.jpg" alt="" />
+                </div>
+                <div class="slide">
+                  <img src="./src/img/img-2.jpg" alt="" />
+                </div>
+
+                <div class="navigation-auto">
+                  <div class="auto-btn1"></div>
+                  <div class="auto-btn2"></div>
+                </div>
+              </div>
+              <div class="buttons flex">
+                <button class="prev">
+                  <img src="./src/img/prev.svg" alt="" />
+                </button>
+                <button class="next">
+                  <img src="./src/img/next.svg" alt="" />
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="jobs-info">
+            <h4>Algunos trabajos destacados</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto
+              molestias, iure quidem nisi enim obcaecati totam cumque debitis
+              repudiandae assumenda labore quo doloremque placeat aspernatur
+              atque fugiat quaerat eos minus!
+            </p>
+            <ul>
+              <li>Trabajo 1</li>
+              <li>Trabajo 2</li>
+              <li>Trabajo 3</li>
+              <li>Trabajo 4</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="contact-us" id="contacto">
+        <h3>¿Querés trabajar con nosotros?</h3>
+        <div class="contact-container">
+          <h5 class="align">Comunicate con un solo click</h5>
+          <div class="contact-links flex">
+            <a href="#" class="flex">Whatsapp</a>
+            <a href="#" class="flex">Email</a>
+          </div>
+        </div>
+      </section>
+      <section>
+        <footer>
+          <ul class="flex">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#quienes-somos">Quienes somos</a></li>
+            <li><a href="#trabajos">Nuestros trabajos</a></li>
+            <li><a href="#contacto">¿Querés trabajar con nosotros?</a></li>
+          </ul>
+          <p>AM Servicios - Todos los derechos reservados</p>
+        </footer>
+      </section>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
