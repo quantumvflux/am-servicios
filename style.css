@@ -95,11 +95,11 @@ h3 {
 }
 
 .nav-container > .logo-container > .logo {
-  border: none;
-  height: 50px;
-  width: 50px;
-  object-fit: cover;
-  margin-right: 7px;
+  height: 40px;
+}
+
+.nav-container > nav > .mobile-logo {
+  display: none;
 }
 
 .nav-container > nav > ul {
@@ -176,6 +176,15 @@ h3 {
   .nav-container > nav > ul > li > a {
     margin-bottom: 25px;
     font-size: 3rem;
+  }
+
+  .nav-container > nav > .mobile-logo {
+    display: block;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
   }
 }
 
