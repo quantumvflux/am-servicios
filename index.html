@@ -42,21 +42,20 @@
         <div class="hero-overlay"></div>
         <div class="hero-container">
           <h1>am servicios</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p>Servicios de mantenimiento y pintura para tu hogar</p>
         </div>
       </section>
       <!-- ABOUT SECTION -->
       <section class="about">
         <h3 id="quienes-somos">¿Quiénes somos?</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ea ad
-          obcaecati sint, impedit quam illum fuga modi rerum esse expedita autem
-          consequuntur accusamus sequi qui minus consequatur totam natus!
+          Somos una empresa de servicios y mantenimiento en pintura exterior e
+          interior. No conocemos limitaciones en cuanto a dimensiones o estado
+          de la propiedad, se trate de una vivienda unifamiliar, un edificio de
+          departamento o la sede de una institución.
           <br />
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi eum
-          esse omnis, iure consequatur maxime exercitationem aliquam tempora
-          asperiores itaque aspernatur minima officia dolor sit aut, molestias
-          delectus voluptatibus nobis?
+          Gracias a nuestra comprobable experiencia podemos ofrecer un servicio
+          profesional consistente y efectivo.
         </p>
         <div class="cards-container">
           <div class="value-card">
@@ -102,32 +101,33 @@
       <section class="jobs" id="trabajos">
         <h3>Nuestros trabajos</h3>
         <div class="jobs-content">
-          <div class="slider-container flex">
-            <div class="slider">
-              <div class="slides">
-                <input type="radio" name="radio-btn" id="radio1" />
-                <input type="radio" name="radio-btn" id="radio2" />
-                <div class="slide first">
-                  <img src="/src/img/img-1.jpg" alt="" />
-                </div>
-                <div class="slide">
-                  <img src="/src/img/img-2.jpg" alt="" />
-                </div>
-
-                <div class="navigation-auto">
-                  <div class="auto-btn1"></div>
-                  <div class="auto-btn2"></div>
-                </div>
-              </div>
-              <div class="buttons flex">
-                <button class="prev">
-                  <img src="/src/img/prev.svg" loading="lazy" alt="" />
-                </button>
-                <button class="next">
-                  <img src="/src/img/next.svg" loading="lazy" alt="" />
-                </button>
-              </div>
-            </div>
+          <div class="carousel" data-carousel>
+            <button class="carousel-button prev" data-carousel-button="prev">
+              <img src="./src/img/prev.svg" alt="Imagen anterior" />
+            </button>
+            <button class="carousel-button next" data-carousel-button="next">
+              <img src="./src/img/next.svg" alt="Imagen siguiente" />
+            </button>
+            <ul data-slides>
+              <li class="slide" data-active>
+                <img
+                  src="https://source.unsplash.com/78A265wPiO4"
+                  alt="Nature Image #1"
+                />
+              </li>
+              <li class="slide">
+                <img
+                  src="https://source.unsplash.com/eOpewngf68w"
+                  alt="Nature Image #2"
+                />
+              </li>
+              <li class="slide">
+                <img
+                  src="https://source.unsplash.com/ndN00KmbJ1c"
+                  alt="Nature Image #3"
+                />
+              </li>
+            </ul>
           </div>
           <div class="jobs-info">
             <h4>Algunos trabajos destacados</h4>
@@ -151,8 +151,22 @@
         <div class="contact-container">
           <h5 class="align">Comunicate con un solo click</h5>
           <div class="contact-links flex">
-            <a href="#" class="flex">Whatsapp</a>
-            <a href="#" class="flex">Email</a>
+            <button>
+              <img src="./src/img/whatsapp.svg" alt="" />
+              <a href="https://wa.link/55y9ql" target="_BLANK" class="flex"
+                >Whatsapp</a
+              >
+            </button>
+
+            <button>
+              <img src="./src/img/email.svg" alt="" />
+              <a
+                href="mailto:maxiservicios91@gmail.com"
+                target="_BLANK"
+                class="flex"
+                >Email</a
+              >
+            </button>
           </div>
         </div>
       </section>
